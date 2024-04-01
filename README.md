@@ -36,6 +36,7 @@
 5. Once the tests are completed, you will see the results in the Test Navigator window.
 
 **Replace Application Keys:**
+
 If necessary, accesses can be replaced with your own ones
 1. Open the project in XCode or in the NuaSolutions folder
 2. Find the `ApiConstants` file
