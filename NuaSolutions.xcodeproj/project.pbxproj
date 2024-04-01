@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719831772BBAD2F800623CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831762BBAD2F800623CDA /* AppDelegate.swift */; };
+		719831792BBAD2F800623CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831782BBAD2F800623CDA /* SceneDelegate.swift */; };
+		7198317B2BBAD2F800623CDA /* SearchRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198317A2BBAD2F800623CDA /* SearchRecipeView.swift */; };
+		7198317E2BBAD2F800623CDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7198317D2BBAD2F800623CDA /* Base */; };
+		719831802BBAD2F900623CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7198317F2BBAD2F900623CDA /* Assets.xcassets */; };
+		719831832BBAD2F900623CDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 719831822BBAD2F900623CDA /* Base */; };
+		7198318E2BBAD2F900623CDA /* NuaSolutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198318D2BBAD2F900623CDA /* NuaSolutionsTests.swift */; };
+		719831982BBAD2F900623CDA /* NuaSolutionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831972BBAD2F900623CDA /* NuaSolutionsUITests.swift */; };
+		7198319A2BBAD2F900623CDA /* NuaSolutionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831992BBAD2F900623CDA /* NuaSolutionsUITestsLaunchTests.swift */; };
+		719831A92BBAD3D200623CDA /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831A82BBAD3D200623CDA /* RecipeCell.swift */; };
+		719831AC2BBAD3F500623CDA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831AB2BBAD3F500623CDA /* RecipeViewModel.swift */; };
+		719831AF2BBAD41C00623CDA /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831AE2BBAD41C00623CDA /* ApiRequest.swift */; };
+		719831B12BBAD42F00623CDA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831B02BBAD42F00623CDA /* RecipeModel.swift */; };
+		719831B32BBAD43D00623CDA /* RecipeDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831B22BBAD43D00623CDA /* RecipeDomainModel.swift */; };
+		719831B52BBAD44C00623CDA /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831B42BBAD44C00623CDA /* RecipeService.swift */; };
+		719831B82BBAD46A00623CDA /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831B72BBAD46A00623CDA /* ApiConstants.swift */; };
+		719831BA2BBAD47800623CDA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719831B92BBAD47800623CDA /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7198318A2BBAD2F900623CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7198316B2BBAD2F800623CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719831722BBAD2F800623CDA;
+			remoteInfo = NuaSolutions;
+		};
+		719831942BBAD2F900623CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7198316B2BBAD2F800623CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719831722BBAD2F800623CDA;
+			remoteInfo = NuaSolutions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		719831732BBAD2F800623CDA /* NuaSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuaSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719831762BBAD2F800623CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		719831782BBAD2F800623CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7198317A2BBAD2F800623CDA /* SearchRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeView.swift; sourceTree = "<group>"; };
+		7198317D2BBAD2F800623CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7198317F2BBAD2F900623CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719831822BBAD2F900623CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719831842BBAD2F900623CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719831892BBAD2F900623CDA /* NuaSolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuaSolutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7198318D2BBAD2F900623CDA /* NuaSolutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuaSolutionsTests.swift; sourceTree = "<group>"; };
+		719831932BBAD2F900623CDA /* NuaSolutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuaSolutionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719831972BBAD2F900623CDA /* NuaSolutionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuaSolutionsUITests.swift; sourceTree = "<group>"; };
+		719831992BBAD2F900623CDA /* NuaSolutionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuaSolutionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		719831A82BBAD3D200623CDA /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		719831AB2BBAD3F500623CDA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		719831AE2BBAD41C00623CDA /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		719831B02BBAD42F00623CDA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		719831B22BBAD43D00623CDA /* RecipeDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDomainModel.swift; sourceTree = "<group>"; };
+		719831B42BBAD44C00623CDA /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		719831B72BBAD46A00623CDA /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		719831B92BBAD47800623CDA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719831702BBAD2F800623CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719831862BBAD2F900623CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719831902BBAD2F900623CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7198316A2BBAD2F800623CDA = {
+			isa = PBXGroup;
+			children = (
+				719831752BBAD2F800623CDA /* NuaSolutions */,
+				7198318C2BBAD2F900623CDA /* NuaSolutionsTests */,
+				719831962BBAD2F900623CDA /* NuaSolutionsUITests */,
+				719831742BBAD2F800623CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719831742BBAD2F800623CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719831732BBAD2F800623CDA /* NuaSolutions.app */,
+				719831892BBAD2F900623CDA /* NuaSolutionsTests.xctest */,
+				719831932BBAD2F900623CDA /* NuaSolutionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719831752BBAD2F800623CDA /* NuaSolutions */ = {
+			isa = PBXGroup;
+			children = (
+				719831A62BBAD38100623CDA /* App */,
+				719831A72BBAD39100623CDA /* Views */,
+				7198317A2BBAD2F800623CDA /* SearchRecipeView.swift */,
+				719831A82BBAD3D200623CDA /* RecipeCell.swift */,
+				719831AA2BBAD3E700623CDA /* ViewModel */,
+				719831AD2BBAD40B00623CDA /* NetworkService */,
+				719831B62BBAD45D00623CDA /* Constants */,
+				719831BB2BBAD4AB00623CDA /* Resourses */,
+				719831842BBAD2F900623CDA /* Info.plist */,
+			);
+			path = NuaSolutions;
+			sourceTree = "<group>";
+		};
+		7198318C2BBAD2F900623CDA /* NuaSolutionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7198318D2BBAD2F900623CDA /* NuaSolutionsTests.swift */,
+			);
+			path = NuaSolutionsTests;
+			sourceTree = "<group>";
+		};
+		719831962BBAD2F900623CDA /* NuaSolutionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				719831972BBAD2F900623CDA /* NuaSolutionsUITests.swift */,
+				719831992BBAD2F900623CDA /* NuaSolutionsUITestsLaunchTests.swift */,
+			);
+			path = NuaSolutionsUITests;
+			sourceTree = "<group>";
+		};
+		719831A62BBAD38100623CDA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				719831762BBAD2F800623CDA /* AppDelegate.swift */,
+				719831782BBAD2F800623CDA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		719831A72BBAD39100623CDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		719831AA2BBAD3E700623CDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				719831AB2BBAD3F500623CDA /* RecipeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		719831AD2BBAD40B00623CDA /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				719831AE2BBAD41C00623CDA /* ApiRequest.swift */,
+				719831B02BBAD42F00623CDA /* RecipeModel.swift */,
+				719831B22BBAD43D00623CDA /* RecipeDomainModel.swift */,
+				719831B42BBAD44C00623CDA /* RecipeService.swift */,
+			);
+			name = NetworkService;
+			sourceTree = "<group>";
+		};
+		719831B62BBAD45D00623CDA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				719831B72BBAD46A00623CDA /* ApiConstants.swift */,
+				719831B92BBAD47800623CDA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		719831BB2BBAD4AB00623CDA /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				7198317C2BBAD2F800623CDA /* Main.storyboard */,
+				7198317F2BBAD2F900623CDA /* Assets.xcassets */,
+				719831812BBAD2F900623CDA /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719831722BBAD2F800623CDA /* NuaSolutions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7198319D2BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutions" */;
+			buildPhases = (
+				7198316F2BBAD2F800623CDA /* Sources */,
+				719831702BBAD2F800623CDA /* Frameworks */,
+				719831712BBAD2F800623CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuaSolutions;
+			productName = NuaSolutions;
+			productReference = 719831732BBAD2F800623CDA /* NuaSolutions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719831882BBAD2F900623CDA /* NuaSolutionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719831A02BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutionsTests" */;
+			buildPhases = (
+				719831852BBAD2F900623CDA /* Sources */,
+				719831862BBAD2F900623CDA /* Frameworks */,
+				719831872BBAD2F900623CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7198318B2BBAD2F900623CDA /* PBXTargetDependency */,
+			);
+			name = NuaSolutionsTests;
+			productName = NuaSolutionsTests;
+			productReference = 719831892BBAD2F900623CDA /* NuaSolutionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		719831922BBAD2F900623CDA /* NuaSolutionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719831A32BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutionsUITests" */;
+			buildPhases = (
+				7198318F2BBAD2F900623CDA /* Sources */,
+				719831902BBAD2F900623CDA /* Frameworks */,
+				719831912BBAD2F900623CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719831952BBAD2F900623CDA /* PBXTargetDependency */,
+			);
+			name = NuaSolutionsUITests;
+			productName = NuaSolutionsUITests;
+			productReference = 719831932BBAD2F900623CDA /* NuaSolutionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7198316B2BBAD2F800623CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					719831722BBAD2F800623CDA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					719831882BBAD2F900623CDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 719831722BBAD2F800623CDA;
+					};
+					719831922BBAD2F900623CDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 719831722BBAD2F800623CDA;
+					};
+				};
+			};
+			buildConfigurationList = 7198316E2BBAD2F800623CDA /* Build configuration list for PBXProject "NuaSolutions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7198316A2BBAD2F800623CDA;
+			productRefGroup = 719831742BBAD2F800623CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719831722BBAD2F800623CDA /* NuaSolutions */,
+				719831882BBAD2F900623CDA /* NuaSolutionsTests */,
+				719831922BBAD2F900623CDA /* NuaSolutionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719831712BBAD2F800623CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719831802BBAD2F900623CDA /* Assets.xcassets in Resources */,
+				719831832BBAD2F900623CDA /* Base in Resources */,
+				7198317E2BBAD2F800623CDA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719831872BBAD2F900623CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719831912BBAD2F900623CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7198316F2BBAD2F800623CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719831B12BBAD42F00623CDA /* RecipeModel.swift in Sources */,
+				719831BA2BBAD47800623CDA /* Constants.swift in Sources */,
+				7198317B2BBAD2F800623CDA /* SearchRecipeView.swift in Sources */,
+				719831B82BBAD46A00623CDA /* ApiConstants.swift in Sources */,
+				719831772BBAD2F800623CDA /* AppDelegate.swift in Sources */,
+				719831B32BBAD43D00623CDA /* RecipeDomainModel.swift in Sources */,
+				719831B52BBAD44C00623CDA /* RecipeService.swift in Sources */,
+				719831AF2BBAD41C00623CDA /* ApiRequest.swift in Sources */,
+				719831792BBAD2F800623CDA /* SceneDelegate.swift in Sources */,
+				719831AC2BBAD3F500623CDA /* RecipeViewModel.swift in Sources */,
+				719831A92BBAD3D200623CDA /* RecipeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719831852BBAD2F900623CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7198318E2BBAD2F900623CDA /* NuaSolutionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7198318F2BBAD2F900623CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7198319A2BBAD2F900623CDA /* NuaSolutionsUITestsLaunchTests.swift in Sources */,
+				719831982BBAD2F900623CDA /* NuaSolutionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7198318B2BBAD2F900623CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719831722BBAD2F800623CDA /* NuaSolutions */;
+			targetProxy = 7198318A2BBAD2F900623CDA /* PBXContainerItemProxy */;
+		};
+		719831952BBAD2F900623CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719831722BBAD2F800623CDA /* NuaSolutions */;
+			targetProxy = 719831942BBAD2F900623CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7198317C2BBAD2F800623CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7198317D2BBAD2F800623CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719831812BBAD2F900623CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719831822BBAD2F900623CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7198319B2BBAD2F900623CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7198319C2BBAD2F900623CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7198319E2BBAD2F900623CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuaSolutions/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7198319F2BBAD2F900623CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuaSolutions/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		719831A12BBAD2F900623CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuaSolutions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuaSolutions";
+			};
+			name = Debug;
+		};
+		719831A22BBAD2F900623CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuaSolutions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuaSolutions";
+			};
+			name = Release;
+		};
+		719831A42BBAD2F900623CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuaSolutions;
+			};
+			name = Debug;
+		};
+		719831A52BBAD2F900623CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasy.NuaSolutionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuaSolutions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7198316E2BBAD2F800623CDA /* Build configuration list for PBXProject "NuaSolutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7198319B2BBAD2F900623CDA /* Debug */,
+				7198319C2BBAD2F900623CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7198319D2BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7198319E2BBAD2F900623CDA /* Debug */,
+				7198319F2BBAD2F900623CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719831A02BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719831A12BBAD2F900623CDA /* Debug */,
+				719831A22BBAD2F900623CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719831A32BBAD2F900623CDA /* Build configuration list for PBXNativeTarget "NuaSolutionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719831A42BBAD2F900623CDA /* Debug */,
+				719831A52BBAD2F900623CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7198316B2BBAD2F800623CDA /* Project object */;
+}
