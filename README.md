@@ -10,6 +10,8 @@
 - Click "search"
 - After the list of recipes has loaded, you can click “more detail” to go to the site with the recipe
 ![Alt Text](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
+![Uploading Simulator Screenshot - iPhone 15 Pro - 2024-04-01 at 16.49.26.png…]()
+
 
 ## Requirements
 - **UIkit framework**
