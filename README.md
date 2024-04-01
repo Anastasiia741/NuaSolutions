@@ -7,7 +7,7 @@
 - **Instructions for use:**
 ![Alt Text](https://media.giphy.com/media/uNvpZ73FIqDMu4xk6n/giphy.gif)
 
-![NziV6D](https://i.makeagif.com/media/4-01-2024/NziV6D.gif)
+![Alt Text](https://i.makeagif.com/media/4-01-2024/NziV6D.gif)
 
 ## Requirements
 - **UIkit framework**
