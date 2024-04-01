@@ -11,7 +11,7 @@
 - After the list of recipes has loaded, you can click “more detail” to go to the site with the recipe
 ![Alt Text](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
 
-<img src="https://raw.githubusercontent.com/Anastasiia741/NuaSolutions/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-04-01%20at%2016.49.26.png" width="300" height="800">
+<img src="https://raw.githubusercontent.com/Anastasiia741/NuaSolutions/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-04-01%20at%2016.49.26.png" width="300" height="700">
 
 
 ## Requirements
