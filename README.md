@@ -4,10 +4,13 @@
 - Unit tests to verify successful access to the database to search for recipes. They check that the fetchData(with:) method in the RecipeViewModel correctly sends a request to the API and processes the received data.
 - UI tests to test user interaction with the interface. They check that after entering a search query and clicking the search button, the table with recipes is displayed and there are cells with recipes in it.
   
-- **Instructions for use:**
-![Alt Text](https://media.giphy.com/media/uNvpZ73FIqDMu4xk6n/giphy.gif)
+ **Instructions for use:**
+- Start the simulator
+- In the search window, enter any name of the dish (salad, kebab, bread, etc.)
+- Click "search"
+- After the list of recipes has loaded, you can click “more detail” to go to the site with the recipe
 
-![Alt Text](https://i.makeagif.com/media/4-01-2024/NziV6D.gif)
+![Alt Text](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
 
 ## Requirements
 - **UIkit framework**
