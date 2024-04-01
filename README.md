@@ -1,4 +1,4 @@
-# HomeTaskNuaSolution 📲
+# TaskNuaSolution 📲
 ## Key Features:
 - The search engine screen allows the user to enter a keyword and get a list of recipes via an API request, while providing an intuitive user interface for easy interaction and understanding of the application's functionality.
 - Unit tests to verify successful access to the database to search for recipes. They check that the fetchData(with:) method in the RecipeViewModel correctly sends a request to the API and processes the received data.
