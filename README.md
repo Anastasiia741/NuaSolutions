@@ -10,7 +10,7 @@
 - Click "search"
 - After the list of recipes has loaded, you can click “more detail” to go to the site with the recipe
 
-![Alt Text](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
+![d3wkpf](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
 
 ## Requirements
 - **UIkit framework**
