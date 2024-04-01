@@ -12,7 +12,7 @@
 ![Alt Text](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
 
 !
-![Alt текст](https://drive.google.com/file/d/1lhMgmnI8WVgo3vMWAtkogea80NwTUVsv/view?usp=sharing).
+![Alt Text](https://drive.google.com/file/d/1lhMgmnI8WVgo3vMWAtkogea80NwTUVsv/view?usp=sharing).
 
 
 ## Requirements
