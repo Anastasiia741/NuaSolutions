@@ -9,8 +9,8 @@
 - In the search window, enter any name of the dish (salad, kebab, bread, etc.)
 - Click "search"
 - After the list of recipes has loaded, you can click “more detail” to go to the site with the recipe
-
-<a href="/gif/-d3wkpf" title=""><img src="https://i.makeagif.com/media/4-01-2024/d3wkpf.gif" alt=""></a><div style="font-size:11px;">make <a href="/" title="make a gif">action GIFs</a> like this at MakeaGif</div>
+  
+![d3wkpf](https://i.makeagif.com/media/4-01-2024/d3wkpf.gif)
 
 ## Requirements
 - **UIkit framework**
